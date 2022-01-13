@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+node_modules/
+dist/
+
+infra/.terraform
+infra/.terraform.lock.hcl
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/secrets.tf
+
+yarn-error.log
