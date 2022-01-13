@@ -75,6 +75,7 @@ Perform a search
 const searchResults = await dts.search({
   index: myIndex,
   searchText: "hello world",
+  // optional, return data pre-sorted by a key within 'entity'
   sortKey: "dateCreated",
 });
 
