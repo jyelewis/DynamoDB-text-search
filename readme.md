@@ -12,6 +12,17 @@ For production full text searching, I recommend [Elastic Search](https://www.ela
 
 ---
 
+## Purpose
+Full text search without spinning up a pesky Elastic search cluster!
+```
+Search text: "say hello"
+
+Search results:
+- "Oh dear, 'Say hello John' she instructed him"
+- "Deep dish lyrics: say hello, say hello"
+- "We clap and say hello,. With our friends at storytime"
+```
+
 ## Usage
 Create a DTS instance
 ```typescript
